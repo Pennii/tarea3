@@ -1,0 +1,50 @@
+html{
+    font-family: cursive;
+}
+body{
+    margin: 0 0;
+}
+header{
+    padding: 1rem 1rem;
+    background-color: rgb(55, 42, 3);
+    color: white;
+    text-align: center;
+}
+img{
+    position: absolute;
+    left: 50%;
+    height: 400px;
+    border: 10px;
+    border-radius: 3rem;
+}
+section{
+    background-color: wheat;
+    padding: 1rem 1rem;
+}
+ul{
+    list-style-type: square;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul li{
+    
+    border-radius: 0.5rem;
+    background-color: orange;
+}
+footer{
+    padding: 1rem 1rem;
+    background-color: black;
+    color: white;
+}
+a:link{
+    color: aqua;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    transition: 0.3s;
+    color: red;
+}
